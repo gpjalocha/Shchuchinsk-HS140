@@ -22,7 +22,7 @@
         <windflags h="3.8" l="4.1" d="0.2" t="Textures\rust1.png" m="Materials\metal.xml" c="0xdddddd" />
         <measurers c1="0x578ad1" c2="0xeeeeee" />
         <label summer-d="95" winter-d="95" text="SHCHUCHINSK" textsize="2.5" />
-        <plastic c="0x00ff99" />
+        <plastic c="0x00ee88" />
         <lines summer-min="110" summer-max="150" winter-min="100" winter-max="145" />
         <numbers min="100" max="150" />
     </dhill>
@@ -2052,7 +2052,7 @@ t="Textures\concrete5.png" m="Materials\material1.xml" c="0x555555"/>
 <!-- floor -->
 
    <!-- ceiling -->
-<pillar refx="inrun0"  texture-refy="window-y" pt="false"  c="0xc5c5c9" x1="-8" ty="0" reflz="inrun-left" m="Materials\concrete.xml" lz=".2"  x2="3" refrz="inrun-right" t="Textures\tiles3.png" front="true"   refy="inrun_top_y" ty=".2"
+<pillar refx="inrun0"  texture-refy="window-y" pt="false"  c="0xc5c5c9" x1="-8" ty="0" reflz="inrun-left" m="Materials\concrete.xml" lz=".2"  x2="3" refrz="inrun-right" t="Textures\tiles3.png" front="true"   refy="inrun_top_y" ty=".2" 
     />
 <!-- stairs inside -->
 <stairs refx="inrun0" refy="inrun-top"
@@ -2063,7 +2063,7 @@ t="Textures\concrete5.png" m="Materials\material1.xml" c="0x555555"/>
 <!-- up -->
 <pillar refx="inrun0" trefy="inrun_top_y" brefy="inrun-top" refrz="inrun-right" reflz="inrun-left" texture-refy="window-y" pt="false"
     x1="2.8" x2="3" lz="0" rz=".2" ty="0" by="2.5"
-    front="true" left="false" right="false" top="false" bottom="false"
+    front="true" left="false" right="false" top="false" 
     c="0xc5c5c9" m="Materials\plastic.xml" t="Textures\tiles3.png"/>
 
 <!-- middle -->
@@ -2190,7 +2190,7 @@ t="Textures\concrete5.png" m="Materials\material1.xml" c="0x555555"/>
     type="glass"
     c="0x9999aa" m="Materials\plastic.xml" t="Textures\railing-glass.png"/>
 
-<pillar refx="inrun0"  texture-refy="window-y" pt="false"  c="0xc5c5c9" x1="-8" by="0" reflz="inrun-left" m="Materials\concrete.xml"  x2="3" refrz="inrun-right" t="Textures\concrete4.png" front="true"   refy="inrun_bottom_y" ty=".2"
+<pillar refx="inrun0"  texture-refy="window-y" pt="false"  c="0xc5c5c9" x1="-8" by="0" reflz="inrun-left" m="Materials\concrete.xml"  x2="3" refrz="inrun-right" t="Textures\concrete4.png" front="true"   refy="inrun_bottom_y" by="0" ty=".2" top="false" left="false" right="false" rz=".2"
     />
 
 <!-- lights -->
